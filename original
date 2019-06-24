@@ -1,0 +1,9 @@
+const myAge = 28; //creates variable myAge and assigns it a reassignable value of 28
+let earlyYears = 2; //creates a variable earlyYears and assigns it a reassignable value of 2
+earlyYears *= 10.5;
+let laterYears = myAge - 2; //subtracts 2 from the current value of variable myAge
+laterYears *= 4 ; //calculates the dog years following the early 2 years
+
+myAgeInDogYears = earlyYears + laterYears; //calculates total years elapsed
+myName = 'Henry Do'.toLowerCase();
+console.log(`My name is ${myName}, I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
